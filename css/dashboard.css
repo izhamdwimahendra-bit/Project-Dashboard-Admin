@@ -1,0 +1,268 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 40px 40px;
+    flex: 4;
+    gap: 20px;
+}
+
+.left-top {
+    background-color: #fa9406;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    flex: 1;
+}
+
+.information p {
+    font-size: 14px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.information a {
+    color: white;
+    display: inline;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.information a:hover {
+    color: #bababa;
+}
+
+.information-logo {
+    display: flex;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.information-logo img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.left-bottom {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    flex: 2;
+    gap: 20px;
+}
+
+.table-judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.table-judul a {
+    background-color: #f59e0b;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    width: 100px;
+    padding: 8px;
+    transition: 0.2s;
+}
+
+.table-judul a:hover {
+    background-color: #d97706;
+}
+
+.table-judul a:active {
+    background-color: #b45309;
+    color: rgb(235, 235, 235);
+}
+
+.table-dashboard {
+    font-size: 13px;
+    max-height: 233px;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 40px 40px 0;
+    gap: 20px;
+}
+
+.right-top {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 270px;
+    max-height: 245px;
+    width: 100%;
+}
+
+
+.calendar {
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    max-height: 245px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.calendar-judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+.calendar-judul p {
+    font-size: 12px;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+
+.days div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.dates div {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 21px;
+    height: 21px;
+    margin: 5.5px;
+}
+
+.dates div:hover {
+    background-color: #fa9406;
+    color: white;
+}
+
+
+.right-bottom {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+.information-admin {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 15px;
+}
+
+.information-admin-judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-admin-judul a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.profil-nama-admin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profil-nama-admin img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.nama-admin {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 4px;
+}
+
+.media-sosial-admin {
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 20px;
+}
+
+.media-sosial-admin a {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    transition: 0.2s;
+}
+
+.media-sosial-admin a:hover {
+    background-color: #fa9406;
+    color: rgb(255, 255, 255);
+}
+
+.main-information-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-right-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.left-right-admin p {
+    color: #949494;
+}
+
+
+

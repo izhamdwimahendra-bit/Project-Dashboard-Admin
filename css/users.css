@@ -1,0 +1,67 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px 40px 40px;
+    flex: 1;
+    gap: 20px;
+}
+
+.user-management {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-management a {
+    background-color: #f59e0b;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 8px;
+    transition: 0.2s;
+}
+
+.user-management a:hover {
+    background-color: #d97706;
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.overview a {
+    background-color: white;
+    color: rgb(28, 28, 28);
+    border: 1px solid rgb(28, 28, 28);
+    transition: 0.2s;
+}
+
+.overview a:hover {
+    background-color: rgb(238, 238, 238);
+}
+.overview a.active {
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.box-table {
+    background-color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 20px;
+    flex: 1;
+}
+
+.table-users {
+    overflow: scroll;
+    scrollbar-width: none;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+}

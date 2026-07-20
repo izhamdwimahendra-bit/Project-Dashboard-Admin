@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.layout {
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    height: 100vh;
+}
+
+.main-area {
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 20px;
+}
